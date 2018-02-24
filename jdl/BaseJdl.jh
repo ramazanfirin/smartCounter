@@ -1,0 +1,19 @@
+entity Camera{
+	name String
+    ipaddress String
+    location String
+}
+
+enum GENDER{
+MALE,FEMALE
+}
+
+enum AGE{
+CHILD,YOUNG,MIDDLE,OLDER
+}
+
+entity Customer {
+	insertDate LocalDate
+	age AGE
+	gender GENDER
+}
